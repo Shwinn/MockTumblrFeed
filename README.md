@@ -1,4 +1,4 @@
-# Project 1 - MockTumblrFeed
+# Lab 1 - MockTumblrFeed
 
 MockTumblrFeed is an app that uses the Tumblr API to create a feed filled with pictures from Humans of New York.
 
@@ -8,7 +8,7 @@ Time spent: 1.5 hours spent in total
 
 The following functionality is complete:
 
-- [x] User can view a list of recent pictures from the Humans of New York page.
+- [x] Users can view a list of recent pictures from the Humans of New York page.
 - [x] Pictures are loaded using the UIImageView category in the AFNetworking library.
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
@@ -20,7 +20,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/ZH5s2Oy.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
