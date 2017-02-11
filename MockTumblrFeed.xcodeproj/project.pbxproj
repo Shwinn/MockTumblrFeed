@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F189CE6DA8FF00AD6AB0BA6 /* Pods_MockTumblrFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4264C7A116BB0379C6ED2E /* Pods_MockTumblrFeed.framework */; };
+		83016FA31E4ECE26007F9DE5 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83016FA21E4ECE26007F9DE5 /* PhotoDetailsViewController.swift */; };
+		83016FA51E4EF50C007F9DE5 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83016FA41E4EF50C007F9DE5 /* InfiniteScrollActivityView.swift */; };
 		83D1E2C61E440118001D38B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E2C51E440118001D38B7 /* AppDelegate.swift */; };
 		83D1E2CB1E440118001D38B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E2C91E440118001D38B7 /* Main.storyboard */; };
 		83D1E2CD1E440118001D38B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E2CC1E440118001D38B7 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		0D4264C7A116BB0379C6ED2E /* Pods_MockTumblrFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockTumblrFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1270EBE4CC38625662A2E870 /* Pods-MockTumblrFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTumblrFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockTumblrFeed/Pods-MockTumblrFeed.release.xcconfig"; sourceTree = "<group>"; };
+		83016FA21E4ECE26007F9DE5 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		83016FA41E4EF50C007F9DE5 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 		83D1E2C21E440118001D38B7 /* MockTumblrFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockTumblrFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E2C51E440118001D38B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D1E2CA1E440118001D38B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83016FA11E4ECDF8007F9DE5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				83D1E2D91E44032F001D38B7 /* PhotosViewController.swift */,
+				83016FA21E4ECE26007F9DE5 /* PhotoDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		83D1E2B91E440117001D38B7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +76,14 @@
 		83D1E2C41E440118001D38B7 /* MockTumblrFeed */ = {
 			isa = PBXGroup;
 			children = (
+				83016FA11E4ECDF8007F9DE5 /* ViewControllers */,
 				83D1E2C51E440118001D38B7 /* AppDelegate.swift */,
 				83D1E2C91E440118001D38B7 /* Main.storyboard */,
 				83D1E2CC1E440118001D38B7 /* Assets.xcassets */,
 				83D1E2CE1E440118001D38B7 /* LaunchScreen.storyboard */,
 				83D1E2D11E440118001D38B7 /* Info.plist */,
-				83D1E2D91E44032F001D38B7 /* PhotosViewController.swift */,
 				83D1E2DB1E4407F2001D38B7 /* PhotoCell.swift */,
+				83016FA41E4EF50C007F9DE5 /* InfiniteScrollActivityView.swift */,
 			);
 			path = MockTumblrFeed;
 			sourceTree = "<group>";
@@ -214,6 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83016FA51E4EF50C007F9DE5 /* InfiniteScrollActivityView.swift in Sources */,
+				83016FA31E4ECE26007F9DE5 /* PhotoDetailsViewController.swift in Sources */,
 				83D1E2C61E440118001D38B7 /* AppDelegate.swift in Sources */,
 				83D1E2DC1E4407F2001D38B7 /* PhotoCell.swift in Sources */,
 				83D1E2DA1E44032F001D38B7 /* PhotosViewController.swift in Sources */,

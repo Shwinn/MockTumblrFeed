@@ -1,8 +1,8 @@
-# Lab 1 - MockTumblrFeed
+# Lab 1 and 2 - MockTumblrFeed
 
 MockTumblrFeed is an app that uses the Tumblr API to create a feed filled with pictures from Humans of New York.
 
-Time spent: 1.5 hours spent in total
+Time spent: 5 hours spent in total
 
 ## User Stories
 
@@ -10,17 +10,20 @@ The following functionality is complete:
 
 - [x] Users can view a list of recent pictures from the Humans of New York page.
 - [x] Pictures are loaded using the UIImageView category in the AFNetworking library.
+- [x] Refresh capabilites added
+- [x] Infinite scrolling through posts
+- [x] Clicking on a post pulls up a bigger image
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. Autosizing the UIImageView to the size of the picture given by the API.
-2. How to make the app such that when an image is clicked on the story for that picture is displayed.
+1. Interacting with different parts of the Tumblr API
+2. Let users search for images based on the story that goes along with each picture
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/UfXpBIr.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/3fdW1Po.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
